@@ -1,0 +1,66 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'VT323', monospace;
+  }
+  
+body {
+    font-family: 'VT323', monospace;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    font-size: 60px;
+    display: block;
+    color: white;
+}
+.button {
+    font-family: 'VT323', monospace;
+    margin-top: 15px;
+    font-size: 20px;
+    background-color: blanchedalmond;
+}
+button {
+    font-family: 'VT323', monospace;
+    margin-top: 15px;
+    font-size: 20px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: red;
+}
+h2 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container2 {
+    width: 2000px;
+    max-width: 80%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+    margin: 0 0 0 170px;
+    
+}
+.btn:hover {
+    border-color: black;
+  }
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+  }
+#text {
+    font-size: 30px;
+}
